@@ -13,7 +13,7 @@ To run the tests for the solutions, you'll need to have Node.js and npm (Node Pa
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/SachaWildCode/codewars-solutions.git
+git clone https://github.com/SachaWildCode/codewars-solutions-and-tests.git
 cd codewars-solutions
 ```
 

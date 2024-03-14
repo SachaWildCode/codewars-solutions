@@ -24,9 +24,21 @@ Before running the tests, install the dependencies using npm:
 npm install
 ```
 
-### Running the Tests
-To run the tests for the solutions, use the following command:
+## Running the Tests
+
+### To run all the tests, use the following command:
 
 ```bash
 npm test
+```
+### Running Specific Test Files
+
+To run a specific test file using npm test, provide the path to the test file you want to execute. Replace `path/to/test/file` with the relative path to the specific test file you want to run:
+
+```bash
+npm test path/to/test/file
+```
+For example:
+```bash
+npm test tests/7kyu_folding_your_way_to_the_moon.test.ts
 ```

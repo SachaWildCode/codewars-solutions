@@ -10,6 +10,7 @@ Also, if somebody is giving you a negative distance, it's clearly bogus and you 
 */
 
 import { foldTo } from "../solutions/7kyu_folding_your_way_to_the_moon.ts";
+
 describe("Fold Paper Unit Tests", () => {
   it("should return null when distance is negative", () => {
     const result = foldTo(-1);
